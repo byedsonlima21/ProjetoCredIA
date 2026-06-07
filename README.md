@@ -1,18 +1,18 @@
-# 🤖 CrediIA: Seu Assistente Financeiro Inteligente
+# 🤖 CredIA: Seu Assistente Financeiro Inteligente
 
-O **CrediIA** é um assistente pessoal focado em organização e privacidade. Ele resolve o problema comum de quem utiliza múltiplos cartões de crédito e perde o controle dos gastos totais. De forma simples e natural, o CrediIA atua como um caderno de anotações inteligente, centralizando seus gastos sem nunca solicitar dados sensíveis como senhas ou números de cartão.
+O **CredIA** é um assistente pessoal focado em organização e privacidade. Ele resolve o problema comum de quem utiliza múltiplos cartões de crédito e perde o controle dos gastos totais. De forma simples e natural, o CrediIA atua como um caderno de anotações inteligente, centralizando seus gastos sem nunca solicitar dados sensíveis como senhas ou números de cartão.
 
-## 🎯 Por que o CrediIA?
-Muitas pessoas acumulam faturas em diferentes instituições e acabam sendo surpreendidas ao final do mês. O CrediIA elimina essa confusão com foco total na **privacidade do usuário**.
+## 🎯 Por que o CredIA?
+Muitas pessoas acumulam faturas em diferentes instituições e acabam sendo surpreendidas ao final do mês. O CredIA elimina essa confusão com foco total na **privacidade do usuário**.
 
 ## 🚀 Funcionalidades
 - **Registro Rápido:** Processa mensagens em linguagem natural para extrair automaticamente o valor e o cartão utilizado.
 - **Resumo em Tempo Real:** Após cada lançamento, o agente calcula e exibe a fatura individual do cartão e a soma total de todos os gastos.
 - **Privacidade por Design:** O agente ignora e alerta o usuário caso dados sensíveis sejam digitados, mantendo o foco apenas em valores e categorias.
-- **Persona Amigável:** Com um tom informal e acolhedor, o CrediIA atua como um facilitador financeiro, mantendo a organização sem ser invasivo.
+- **Persona Amigável:** Com um tom informal e acolhedor, o CredIA atua como um facilitador financeiro, mantendo a organização sem ser invasivo.
 
 ## ⚙️ Engenharia da Base de Conhecimento
-O CrediIA utiliza uma arquitetura leve e segura:
+O CredIA utiliza uma arquitetura leve e segura:
 - **Estrutura Dinâmica:** Dados são gerenciados via arquivos `JSON`, funcionando como uma memória de contexto para o agente.
 - **Integração em Tempo Real:** O estado atual das faturas é injetado diretamente no contexto da IA, permitindo cálculos precisos sem a necessidade de bancos de dados pesados.
 - **Privacidade via Mocking:** Utilizamos identificadores anônimos (apelidos de cartões), garantindo que nenhuma informação real ou sensível seja exposta.

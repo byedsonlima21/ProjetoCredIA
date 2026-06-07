@@ -28,7 +28,7 @@ ATENDIMENTOS ANTERIORES:
 """
 
 # ========== SYSTEM PROMPT ==========
-SYSTEM_PROMPT = """Você é o CrediIA, um assistente virtual de controle financeiro pessoal.
+SYSTEM_PROMPT = """Você é o CredIA, um assistente virtual de controle financeiro pessoal.
 OBJETIVO: Processar mensagens de gastos, identificar o valor e o cartão mencionado, e atualizar o saldo da fatura com base no contexto fornecido.
 
 REGRAS:
@@ -54,7 +54,7 @@ def perguntar(msg):
 
 
 # ========== INTERFACE (STREAMLIT) ==========
-st.title("💸 CrediIA, Seu Assistente Financeiro")
+st.title("💸 CredIA, Seu Assistente Financeiro")
 
 # Exibe o input do chat
 if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
@@ -62,6 +62,6 @@ if pergunta := st.chat_input("Sua dúvida sobre finanças..."):
     st.chat_message("user").write(pergunta)
 
     # Processa a resposta
-    with st.spinner("O CrediIA está pensando..."):
+    with st.spinner("O CredIA está pensando..."):
         resposta = perguntar(pergunta)
         st.chat_message("assistant").write(resposta)
